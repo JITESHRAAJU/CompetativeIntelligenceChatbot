@@ -1,0 +1,40 @@
+fastapi==0.95.2
+# uvicorn==0.22.0
+# pydantic==1.10.13
+# python-dotenv==1.0.0
+# langchain==0.0.335
+# langchain-google-genai==0.0.5
+# pinecone-client==2.2.4
+# google-generativeai==0.3.1
+# requests==2.31.0
+# python-multipart==0.0.6
+# uuid==1.30
+# anyio==3.7.1
+
+# -----pinecone------
+# Core FastAPI stack
+# Core dependencies
+
+
+
+
+
+
+fastapi==0.95.2
+uvicorn==0.22.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# AI components
+google-generativeai==0.3.2
+langchain-google-genai==0.0.11
+langchain==0.0.335
+
+# Vector store with compatible versions
+numpy==1.26.4
+onnxruntime==1.16.3
+chromadb==0.4.22
+
+# Utilities
+python-multipart==0.0.6
+anyio==3.7.1
